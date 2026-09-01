@@ -6,6 +6,10 @@ A browser city-builder set in ancient Greece — a small homage to _Zeus: Master
 
 No install, no account, nothing to download. Your city is saved in your browser's local storage.
 
+[![The city of Elysia mid-game: the building palette down the left, the tile map with paths, houses,
+temples and delivery carts in the middle, and the city readout — population, food distribution and
+divine blessings — down the right.](docs/screenshot.png)](https://lewisbroadhurst.github.io/acropolis-rising/)
+
 ## The game
 
 You lay out a city on a 20×14 tile map of grass, coast, forest, hill, mountain and water, then

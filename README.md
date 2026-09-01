@@ -63,9 +63,8 @@ serves project sites under `/<repo-name>/`, production builds set Vite's `base` 
 ## History
 
 This project started life as an app inside the
-[sandbox-projects-with-agents](https://github.com/LewisBroadhurst/sandbox-projects-with-agents)
-Nx monorepo and was split out here with its history intact. Almost all of the code was written
-by Claude Code.
+[LewisBroadhurst/monorepo](https://github.com/LewisBroadhurst/monorepo) Nx workspace and was
+split out here with its history intact. Almost all of the code was written by Claude Code.
 
 ## Licence
 

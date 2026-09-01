@@ -1,0 +1,30 @@
+# compiled output
+dist
+tmp
+out-tsc
+
+# dependencies
+node_modules
+
+# test output
+/coverage
+/test-output
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.settings/
+.vscode/*
+!.vscode/extensions.json
+
+# logs
+npm-debug.log
+yarn-error.log
+
+# System Files
+.DS_Store
+Thumbs.db
+
+vite.config.*.timestamp*
+vitest.config.*.timestamp*

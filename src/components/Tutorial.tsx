@@ -60,15 +60,17 @@ export function Tutorial({ onClose }: TutorialProps) {
 	}, [onClose]);
 
 	return (
-		<div id="tutorialOverlay" onClick={onClose}>
-			<div className="tutorial-card" role="dialog" aria-modal="true" onClick={e => e.stopPropagation()}>
+		// Clicking the backdrop (but not the card inside it) dismisses the tutorial;
+		// Escape and the close button do the same for keyboard users.
+		<div id="tutorialOverlay" role="presentation" onClick={e => e.target === e.currentTarget && onClose()}>
+			<div className="tutorial-card" role="dialog" aria-modal="true" aria-labelledby="tutorialTitle">
 				<button className="tutorial-close ghost small" onClick={onClose} aria-label="Close tutorial">
 					✕
 				</button>
 				<div className="tutorial-icon" aria-hidden="true">
 					{s.icon}
 				</div>
-				<h2>{s.title}</h2>
+				<h2 id="tutorialTitle">{s.title}</h2>
 				<p>{s.body}</p>
 				<div className="tutorial-dots" aria-hidden="true">
 					{STEPS.map((_, i) => (

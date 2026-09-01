@@ -162,7 +162,7 @@ function TileInfo({ state, storage, coverage, selectedBuild, selectedTile, onDem
 							<span role="img" aria-label="Apartments">
 								🏢
 							</span>{' '}
-							Apartments — a nearby culture venue doubled this home's capacity.
+							Apartments — a nearby culture venue doubled this home&rsquo;s capacity.
 						</div>
 					)}
 					<button className="small" style={{ marginTop: 8, width: '100%' }} onClick={() => onDemolish(selectedTile.x, selectedTile.y)}>

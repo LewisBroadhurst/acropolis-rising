@@ -1,13 +1,22 @@
 {
-	"files": [],
-	"include": [],
-	"references": [
-		{
-			"path": "./tsconfig.app.json"
-		},
-		{
-			"path": "./tsconfig.spec.json"
-		}
-	],
-	"extends": "../../tsconfig.base.json"
+	"compilerOptions": {
+		"target": "es2022",
+		"lib": ["es2022", "dom", "dom.iterable"],
+		"module": "esnext",
+		"moduleResolution": "bundler",
+		"jsx": "react-jsx",
+		"types": ["node", "vite/client", "vitest/globals", "vitest/importMeta"],
+
+		"noEmit": true,
+		"isolatedModules": true,
+		"importHelpers": false,
+		"skipLibCheck": true,
+
+		"strict": true,
+		"noFallthroughCasesInSwitch": true,
+		"noImplicitOverride": true,
+		"noImplicitReturns": true,
+		"noUnusedLocals": true
+	},
+	"include": ["src", "vite.config.ts", "eslint.config.mjs"]
 }

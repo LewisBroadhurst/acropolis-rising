@@ -66,9 +66,9 @@ serves project sites under `/<repo-name>/`, production builds set Vite's `base` 
 
 ## History
 
-This project started life as an app inside the
-[LewisBroadhurst/monorepo](https://github.com/LewisBroadhurst/monorepo) Nx workspace and was
-split out here with its history intact. Almost all of the code was written by Claude Code.
+This project started life as an app inside the Nx workspace at
+[LewisBroadhurst/testing-grounds](https://github.com/LewisBroadhurst/testing-grounds), and was split
+out here with its history intact. Almost all of the code was written by Claude Code.
 
 ## Licence
 
